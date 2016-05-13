@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> MLG Slot Machine in Javascript</title>
+<style>
+#background{
+	background-size:1600px 690px;
+}
+body {
+font-family:verdana,arial;
+padding:20px;
+}
+.bd {
+text-align:center;
+}
+.container {
+margin:0 auto;
+width:266px;
+}
+.slot-wrapper {
+border: 1px solid #000000;
+}
+.slot {
+width:86px;
+height:70px;
+float:left;
+border:1px solid #000;
+background-position:0 4px;
+font-size:50;
+}
+.motion {
+background:url("images/reel_blur.png") repeat-y; 
+}
+button {
+display:block;
+width:138px;
+height:33px;
+margin:20px 60px;
+font-size:16px;
+cursor:pointer;
+}
+#result {
+margin:20px 0;
+font-size:18px;
+font-weight:bold;
+height:22px;
+}
+.clear {
+clear:both;
+}
+
+#messages{
+border:2px solid #000;
+}
+</style>
+</head>
+<body id="background" background ="https://i.ytimg.com/vi/rosclr8QUqo/maxresdefault.jpg">
+<div class="hd">
+</div>
+<div class="bd">
+<h1>MLG Slot machine in Javascript</h1>
+<div class="container">
+<div class="slot-wrapper">
+<div id="slot1" class="slot"></div>
+<div id="slot2" class="slot"></div>
+<div id="slot3" class="slot"></div>
+<div class="clear"></div>
+</div>
+<div id="result"></div>
+<div><button id="control">MLG button</button></div>
+</div>
+<div id="messages"></div>
+</body>
+<script type="text/javascript" src="ddd.js"></script>
+</html>
